@@ -16,7 +16,7 @@ import (
 	"github.com/humansdotai/bridge-monitor-process/processor/humanclient"
 	signature "github.com/humansdotai/bridge-monitor-process/processor/signature"
 	"github.com/humansdotai/bridge-monitor-process/processor/wasmclient"
-	"github.com/humansdotai/bridge-monitor-process/x/humans/types"
+	"github.com/humansdotai/humans/x/humans/types"
 )
 
 // Observer observer service

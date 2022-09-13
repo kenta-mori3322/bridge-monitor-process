@@ -1050,6 +1050,10 @@ github.com/huin/goupnp v1.0.0/go.mod h1:n9v9KO1tAxYH82qOn+UTIFQDmx5n1Zxd/ClZDMX7
 github.com/huin/goupnp v1.0.3-0.20220313090229-ca81a64b4204 h1:+EYBkW+dbi3F/atB+LSQZSWh7+HNrV3A/N0y6DSoy9k=
 github.com/huin/goupnp v1.0.3-0.20220313090229-ca81a64b4204/go.mod h1:ZxNlw5WqJj6wSsRK5+YfflQGXYfccj5VgQsMNixHM7Y=
 github.com/huin/goutil v0.0.0-20170803182201-1ca381bf3150/go.mod h1:PpLOETDnJ0o3iZrZfqZzyLl6l7F3c6L1oWn7OICBi6o=
+github.com/humansdotai/humans v0.0.0-20220913090538-a8255bb3805e h1:Nr65uuuqy/WBcRAyZ1DslEs/XiNEfA/ynb9l9sre5as=
+github.com/humansdotai/humans v0.0.0-20220913090538-a8255bb3805e/go.mod h1:rs5IUXfCCb766dU9y03ZpxKIitr+tv0qcrSCgkhQ3A4=
+github.com/humansdotai/humans v0.1.0 h1:T9WUB5/ksFTwgbTRyRzbnbafEmeV0ndOn+6W3fJwZ4c=
+github.com/humansdotai/humans v0.1.0/go.mod h1:rs5IUXfCCb766dU9y03ZpxKIitr+tv0qcrSCgkhQ3A4=
 github.com/iancoleman/strcase v0.2.0 h1:05I4QRnGpI0m37iZQRuskXh+w77mr6Z41lwQzuHLwW0=
 github.com/iancoleman/strcase v0.2.0/go.mod h1:iwCmte+B7n89clKwxIoIXy/HfoL7AsD47ZCWhYzw7ho=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=

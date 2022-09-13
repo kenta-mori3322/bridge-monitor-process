@@ -8,7 +8,7 @@ import (
 	"time"
 
 	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
-	"github.com/humansdotai/bridge-monitor-process/x/humans/types"
+	"github.com/humansdotai/humans/x/humans/types"
 )
 
 // WasmRawExecuteTxMsg
