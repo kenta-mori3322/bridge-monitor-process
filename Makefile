@@ -17,7 +17,7 @@ install: go.sum
 	go install -mod=readonly $(BUILD_FLAGS) ./cmd/processord
 
 build: go.sum clean
-		go build -mod=mod $(BUILD_FLAGS) -o build/processord ./cmd/processord
+	go build -mod=mod $(BUILD_FLAGS) -o build/processord ./cmd/processord
 
 build-linux:
 	GOOS=linux GOARCH=amd64 $(MAKE) build

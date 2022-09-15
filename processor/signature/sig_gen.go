@@ -1,13 +1,13 @@
 package signature
 
 import (
+	"context"
 	"crypto"
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/sha256"
 	"fmt"
 	"log"
-	"math/big"
 	"strconv"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -70,8 +70,11 @@ func (o *RSASignature) InitializePubKeyOnEtherem(signer string) bool {
 		return false
 	}
 
-	chainID := new(big.Int)
-	chainID.SetInt64(4)
+	chainID, err := client.NetworkID(context.Background())
+	if err != nil {
+		log.Fatalln(err)
+		return false
+	}
 
 	transactOpts, err := bind.NewKeyedTransactorWithChainID(privateKey, chainID)
 	if err != nil {

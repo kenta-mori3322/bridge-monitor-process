@@ -7,65 +7,49 @@ require (
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/cosmos/cosmos-sdk v0.45.4
-	github.com/cosmos/ibc-go/v3 v3.0.0
 	github.com/eager7/dogd v0.0.0-20200427085516-2caf59f59dbb
 	github.com/eager7/dogutil v0.0.0-20200427040807-200e961ba4b5
 	github.com/ethereum/go-ethereum v1.10.17
 	github.com/gcash/bchd v0.19.0
 	github.com/gcash/bchutil v0.0.0-20210113190856-6ea28dff4000
 	github.com/gogo/protobuf v1.3.3
-	github.com/golang/protobuf v1.5.2
-	github.com/gorilla/mux v1.8.0
-	github.com/grpc-ecosystem/grpc-gateway v1.16.0
-	github.com/hashicorp/go-getter v1.6.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.5.3
-	github.com/ignite-hq/cli v0.22.1
+	github.com/humansdotai/humans v0.1.0
 	github.com/joho/godotenv v1.3.0
 	github.com/multiformats/go-multiaddr v0.3.1
-	github.com/otiai10/copy v1.6.0
 	github.com/prometheus/client_golang v1.12.1
-	github.com/spf13/cast v1.4.1
-	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.1
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	github.com/tendermint/tendermint v0.34.19
-	github.com/tendermint/tm-db v0.6.7
-	google.golang.org/genproto v0.0.0-20220822174746-9e6da59bd2fc
-	google.golang.org/grpc v1.48.0
-	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
-	cloud.google.com/go v0.100.2 // indirect
-	cloud.google.com/go/compute v1.5.0 // indirect
-	cloud.google.com/go/iam v0.3.0 // indirect
-	cloud.google.com/go/storage v1.14.0 // indirect
-	github.com/aws/aws-sdk-go v1.40.45 // indirect
-	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
+	github.com/cosmos/ibc-go/v3 v3.0.0 // indirect
 	github.com/dchest/siphash v1.2.2 // indirect
-	github.com/googleapis/gax-go/v2 v2.3.0 // indirect
-	github.com/hashicorp/go-safetemp v1.0.0 // indirect
-	github.com/hashicorp/go-version v1.2.1 // indirect
-	github.com/humansdotai/humans v0.1.0 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/gorilla/mux v1.8.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
+	github.com/ignite-hq/cli v0.22.1 // indirect
 	github.com/ipfs/go-cid v0.0.7 // indirect
-	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v0.1.1 // indirect
-	github.com/mitchellh/go-testing-interface v1.0.0 // indirect
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiformats/go-base32 v0.0.3 // indirect
 	github.com/multiformats/go-base36 v0.1.0 // indirect
 	github.com/multiformats/go-multibase v0.0.3 // indirect
 	github.com/multiformats/go-multihash v0.0.14 // indirect
 	github.com/multiformats/go-varint v0.0.6 // indirect
+	github.com/otiai10/copy v1.6.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	github.com/ulikunitz/xz v0.5.8 // indirect
+	github.com/spf13/cast v1.4.1 // indirect
+	github.com/spf13/cobra v1.4.0 // indirect
+	github.com/stretchr/testify v1.7.1 // indirect
+	github.com/tendermint/tm-db v0.6.7 // indirect
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
-	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	google.golang.org/api v0.74.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/genproto v0.0.0-20220822174746-9e6da59bd2fc // indirect
+	google.golang.org/grpc v1.48.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
 require (
